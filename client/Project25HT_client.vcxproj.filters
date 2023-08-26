@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Boost_Asio">
+      <UniqueIdentifier>{6d9aabb0-c119-47e6-a148-9e409042b895}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Boost_Asio">
+      <UniqueIdentifier>{1b91120b-d812-4d2d-b512-0f268f6a7a59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\util">
+      <UniqueIdentifier>{cf032272-981a-46df-8661-1b368a95cb24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\util">
+      <UniqueIdentifier>{c9b5d578-5ab0-4b59-948b-a9d58a5a46f7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Boost_Asio\Boost_Asio_client.cpp">
+      <Filter>Исходные файлы\Boost_Asio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\sha1.cpp">
+      <Filter>Исходные файлы\util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Boost_Asio\Boost_Asio_client.h">
+      <Filter>Файлы заголовков\Boost_Asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\util\sha1.h">
+      <Filter>Файлы заголовков\util</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
